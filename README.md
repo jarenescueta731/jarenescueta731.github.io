@@ -1,6 +1,6 @@
 # README
 
-### Personal Portfolio v2.0
+### Personal Portfolio v2.0.1
 
 In making this site, I focused on using mobile-first responsive design.
 Here you can find a few of the projects that I have created using HTML5/CSS3/JavaScript/jQuery.
@@ -15,7 +15,6 @@ This repo represents a couple firsts for me:
 
 ### To-do
 
-  - What is gitignore's importance? Add it.
   - Overhaul TwitchTV app and Calculator w/ responsive design.
   - Pomodoro responsiveness could use work.
   - Replace Weather App & Star Wars Quotes w/ tic-tac-toe & simon-says.
