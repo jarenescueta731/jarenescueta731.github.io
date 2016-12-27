@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Pomodoro Clock",
+    "projectUrl": "pomodoro/pomodoro.html",
+    "imageSrc": "img/pomodoro.jpg",
+    "caption": "Set the amount of time for work sessions and breaks between."
+  },
+  {
+    "title": "Calculator",
+    "projectUrl": "calculator/calculator.html",
+    "imageSrc": "img/js-calculator.jpg",
+    "caption": "A JavaScript calculator with basic functionality."
+  },
+  {
+    "title": "Wikipedia Viewer",
+    "projectUrl": "wiki-viewer/wiki-viewer.html",
+    "imageSrc": "img/wiki-viewer.jpg",
+    "caption": "Search for Wikipedia articles or retrieve a random article."
+  },
+  {
+    "title": "Local Weather",
+    "projectUrl": "weather-app/weather-app.html",
+    "imageSrc": "img/weather-app.jpg",
+    "caption": "Lets the user see the local weather and toggle between temperature metrics."
+  },
+  {
+    "title": "Star Wars Quotes",
+    "projectUrl": "star-wars-quotes/star-wars-quotes.html",
+    "imageSrc": "img/star-wars-quotes.jpg",
+    "caption": "Displays a random Star Wars quote that can be tweeted by the user."
+  },
+  {
+    "title": "Twitch Streams",
+    "projectUrl": "twitchtv-app/twitchtv-app.html",
+    "imageSrc": "img/twitchtv_app.jpg",
+    "caption": "Displays the details and stream status of certain Twitch channels."
+  }
+]
