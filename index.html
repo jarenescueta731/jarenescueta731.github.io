@@ -9,6 +9,18 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="http://s.mlcdn.co/animate.css">
     <link rel="stylesheet" href="css/styles.css">
+    <script id="project-template" type="x-handlebar-template">
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <a href="{{projectUrl}}" target="_blank">
+          <img src="{{imageSrc}}" alt="" class="img-responsive">
+          <div class="hidden-xs text-center project-info">
+            <h3>{{title}}</h3>
+            <p>{{caption}}</p>
+            <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span><p class="open">OPEN</p>
+          </div>
+        </a>
+      </div>
+    </script>
   </head>
 
   <body>
@@ -44,68 +56,7 @@
     <div class="container">
       <section class="text-center" id="portfolio">
         <h2>Portfolio</h2>
-        <div class="row">
-          <div class="col-xs-12 col-sm-6 col-md-4">
-            <a href="pomodoro/pomodoro.html" target="_blank">
-              <img src="img/pomodoro.jpg" alt="" class="img-responsive">
-              <div class="hidden-xs text-center project-info">
-                <h3>Pomodoro Clock</h3>
-                <p>Set the amount of time for work sessions and breaks between.</p>
-                <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span><p class="open">OPEN</p>
-              </div>
-            </a>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-4">
-            <a href="calculator/calculator.html" target="_blank">
-              <img src="img/js-calculator.jpg" alt="" class="img-responsive">
-              <div class="hidden-xs text-center project-info">
-                <h3>Calculator</h3>
-                <p>A JavaScript calculator with basic functionality.</p>
-                <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span><p class="open">OPEN</p>
-              </div>
-            </a>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-4">
-            <a href="wiki-viewer/wiki-viewer.html" target="_blank">
-              <img src="img/wiki-viewer.jpg" alt="" class="img-responsive">
-              <div class="hidden-xs text-center project-info">
-                <h3>Wikipedia Viewer</h3>
-                <p>Search for Wikipedia articles or retrieve a random article.</p>
-                <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span><p class="open">OPEN</p>
-              </div>
-            </a>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-4">
-            <a href="weather-app/weather-app.html" target="_blank">
-              <img src="img/weather-app.jpg" alt="" class="img-responsive">
-              <div class="hidden-xs text-center project-info">
-                <h3>Weather App</h3>
-                <p>Lets the user see the local weather and toggle between temperature metrics.</p>
-                <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span><p class="open">OPEN</p>
-              </div>
-            </a>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-4">
-            <a href="star-wars-quotes/star-wars-quotes.html" target="_blank">
-              <img src="img/star-wars-quotes.jpg" alt="" class="img-responsive">
-              <div class="hidden-xs text-center project-info">
-                <h3>Star Wars Quotes</h3>
-                <p>Displays a random Star Wars quote that can be tweeted by the user.</p>
-                <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span><p class="open">OPEN</p>
-              </div>
-            </a>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-4">
-            <a href="twitchtv-app/twitchtv-app.html" target="_blank">
-              <img src="img/twitchtv_app.jpg" alt="" class="img-responsive">
-              <div class="hidden-xs text-center project-info">
-                <h3>Twitch.tv App</h3>
-                <p>Displays the details and stream status of certain Twitch channels.</p>
-                <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span><p class="open">OPEN</p>
-              </div>
-            </a>
-          </div>
-        </div>
+        <div class="row"></div>
       </section>
 
       <section class="text-center" id="about">
@@ -150,7 +101,7 @@
           <a href="https://www.linkedin.com/in/jaren-escueta-30186565" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
           <a href="http://codepen.io/jarenescueta/" target="_blank"><i class="fa fa-codepen fa-2x" aria-hidden="true"></i></a>
           <a href="https://twitter.com/eski_mojo" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-          <a href="https://github.com/jarenescueta731" target="_blank"><i class="fa fa-github-alt fa-2x" aria-hidden="true"></i></a>
+          <a href="https://github.com/jjron" target="_blank"><i class="fa fa-github-alt fa-2x" aria-hidden="true"></i></a>
         </div>
       </section>
     </div><!-- /.container -->
@@ -161,6 +112,8 @@
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.js"></script>
+    <script src="scripts/project.js"></script>
+    <script src="scripts/projectView.js"></script>
   </body>
 </html>

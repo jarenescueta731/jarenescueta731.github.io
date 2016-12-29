@@ -153,10 +153,6 @@ p {
 	display: inline-block;
 }
 
-#portfolio img {
-	
-}
-
 .project-info {
 	position: absolute;
 	top: 0;
@@ -203,10 +199,6 @@ p {
 
 #about p {
 	font-size: 1em;
-}
-
-#skills {
-
 }
 
 #about ul {
