@@ -1,37 +1,37 @@
 [
   {
     "title": "Pomodoro Clock",
-    "projectUrl": "pomodoro/pomodoro.html",
+    "projectUrl": "https://jjron.github.io/my-pomodoro-clock/",
     "imageSrc": "img/pomodoro.jpg",
     "caption": "Set the amount of time for work sessions and breaks between."
   },
   {
     "title": "Calculator",
-    "projectUrl": "calculator/calculator.html",
+    "projectUrl": "https://jjron.github.io/javascript-calculator/",
     "imageSrc": "img/js-calculator.jpg",
     "caption": "A JavaScript calculator with basic functionality."
   },
   {
     "title": "Wikipedia Viewer",
-    "projectUrl": "wiki-viewer/wiki-viewer.html",
+    "projectUrl": "https://jjron.github.io/wikipedia-viewer/",
     "imageSrc": "img/wiki-viewer.jpg",
     "caption": "Search for Wikipedia articles or retrieve a random article."
   },
   {
     "title": "Local Weather",
-    "projectUrl": "weather-app/weather-app.html",
+    "projectUrl": "https://jjron.github.io/local-weather-app/",
     "imageSrc": "img/weather-app.jpg",
     "caption": "Lets the user see the local weather and toggle between temperature metrics."
   },
   {
     "title": "Star Wars Quotes",
-    "projectUrl": "star-wars-quotes/star-wars-quotes.html",
+    "projectUrl": "https://jjron.github.io/star-wars-quote-machine/",
     "imageSrc": "img/star-wars-quotes.jpg",
     "caption": "Displays a random Star Wars quote that can be tweeted by the user."
   },
   {
     "title": "Twitch Streams",
-    "projectUrl": "twitchtv-app/twitchtv-app.html",
+    "projectUrl": "https://jjron.github.io/twitch-streamers",
     "imageSrc": "img/twitchtv_app.jpg",
     "caption": "Displays the details and stream status of certain Twitch channels."
   }
