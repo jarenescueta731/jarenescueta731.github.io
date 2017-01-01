@@ -262,7 +262,10 @@ footer {
 	padding: 1em 0;
 }
 
-
+/* Creates sticky footer */
+.wrap {
+	min-height: calc(100vh);
+}
 
 /* ==================================
 	Media Queries

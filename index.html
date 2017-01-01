@@ -24,88 +24,89 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">JE</a>
-        </div><!-- /.navbar-header -->
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#home">Home</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
-
-    <div class="jumbotron text-center" id="home">
-      <h1>Hello, I'm Jaren</h1>
-      <p>Front End Developer</p>
-      <a href="#contact"><button type="button" class="btn">Contact Me</button></a>
-    </div>
-
-    <div class="container">
-      <section class="text-center" id="portfolio">
-        <h2>Portfolio</h2>
-        <div class="row"></div>
-      </section>
-
-      <section class="text-center" id="about">
-        <h2>About</h2>
-        <div class="row">
-          <div class="col-md-3">
-            <img src="img/profile_pic1.jpg" alt="Cheesy photo of Jaren Escueta" class="img-circle" id="cheese-pic">
-          </div>
-          <div class="col-md-9">
-            <p>Puzzle solver. Constant learner. Music lover. Made in Alaska. Degree in computer engineering. Developer for life.</p>
-            <p>I am currently looking for my first position as a junior front end developer. Feel free to contact me, whether you just want to chat or if you think I could be your next hire. If it's the latter case, I am 100% willing to relocate.</p>
-          </div>
-        </div>
-        <div class="row" id="skills">
-          <div class="col-xs-6 col-md-3 col-md-offset-3">
-            <h3>Proficient</h3>
-            <ul>
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>Bootstrap 3</li>
-              <li>JavaScript</li>
-              <li>jQuery</li>
+    <div class="wrap">
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">JE</a>
+          </div><!-- /.navbar-header -->
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="/">Home</a></li>
+              <li><a href="/portfolio">Portfolio</a></li>
+              <li><a href="/about">About</a></li>
+              <li><a href="/contact">Contact</a></li>
             </ul>
-          </div>
-          <div class="col-xs-6 col-md-3">
-            <h3>Learning</h3>
-            <ul>
-              <li>Git</li>
-              <li>Sass</li>
-              <li>Bootstrap 4</li>
-              <li>SQL</li>
-            </ul>
-          </div>
-        </div>
-      </section>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
 
-      <section id="contact" class="text-center">
-        <h2>Contact</h2>
-        <p>Email is the best way to reach me! Otherwise, you can find me through the social media channels that I've been somewhat diligent at checking lately.</p>
-        <p><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:jaren.escueta@gmail.com" id="email">jaren.escueta@gmail.com</a></p>
-        <div class="media-links">
-          <a href="https://www.linkedin.com/in/jaren-escueta-30186565" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
-          <a href="http://codepen.io/jarenescueta/" target="_blank"><i class="fa fa-codepen fa-2x" aria-hidden="true"></i></a>
-          <a href="https://twitter.com/eski_mojo" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-          <a href="https://github.com/jjron" target="_blank"><i class="fa fa-github-alt fa-2x" aria-hidden="true"></i></a>
-        </div>
-      </section>
-    </div><!-- /.container -->
+      <div id="home" class="jumbotron text-center tab-content">
+        <h1>Hello, I'm Jaren</h1>
+        <p>Front End Developer</p>
+        <a href="/contact"><button type="button" class="btn">Contact Me</button></a>
+      </div>
 
+      <div class="container">
+        <section id="portfolio" class="text-center tab-content">
+          <h2>Portfolio</h2>
+          <div class="row"></div>
+        </section>
+
+        <section id="about" class="text-center tab-content">
+          <h2>About</h2>
+          <div class="row">
+            <div class="col-md-3">
+              <img src="img/profile_pic1.jpg" alt="Cheesy photo of Jaren Escueta" class="img-circle" id="cheese-pic">
+            </div>
+            <div class="col-md-9">
+              <p>Puzzle solver. Constant learner. Music lover. Made in Alaska. Degree in computer engineering. Developer for life.</p>
+              <p>I am currently looking for my first position as a junior front end developer. Feel free to contact me, whether you just want to chat or if you think I could be your next hire. If it's the latter case, I am 100% willing to relocate.</p>
+            </div>
+          </div>
+          <div class="row" id="skills">
+            <div class="col-xs-6 col-md-3 col-md-offset-3">
+              <h3>Proficient</h3>
+              <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Bootstrap 3</li>
+                <li>JavaScript</li>
+                <li>jQuery</li>
+              </ul>
+            </div>
+            <div class="col-xs-6 col-md-3">
+              <h3>Learning</h3>
+              <ul>
+                <li>Git</li>
+                <li>Sass</li>
+                <li>Bootstrap 4</li>
+                <li>SQL</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact" class="text-center tab-content">
+          <h2>Contact</h2>
+          <p>Email is the best way to reach me! Otherwise, you can find me through the social media channels that I've been somewhat diligent at checking lately.</p>
+          <p><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:jaren.escueta@gmail.com" id="email">jaren.escueta@gmail.com</a></p>
+          <div class="media-links">
+            <a href="https://www.linkedin.com/in/jaren-escueta-30186565" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+            <a href="http://codepen.io/jarenescueta/" target="_blank"><i class="fa fa-codepen fa-2x" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/eski_mojo" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+            <a href="https://github.com/jjron" target="_blank"><i class="fa fa-github-alt fa-2x" aria-hidden="true"></i></a>
+          </div>
+        </section>
+      </div><!-- /.container -->
+    </div><!-- /.wrap -->
     <footer class="text-center">
       <p>&copy; 2016 Jaren Escueta</p>
       <p>Made in Alaska</p>
@@ -113,7 +114,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.js"></script>
+    <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
     <script src="scripts/project.js"></script>
     <script src="scripts/projectView.js"></script>
+    <script src="scripts/controllers/homeController.js"></script>
+    <script src="scripts/controllers/projectController.js"></script>
+    <script src="scripts/controllers/aboutController.js"></script>
+    <script src="scripts/controllers/contactController.js"></script>
+    <script src="scripts/controllers/routeHandlers.js"></script>
   </body>
 </html>
