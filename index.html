@@ -38,28 +38,28 @@
         </div><!-- /.navbar-header -->
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#home">Home</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/portfolio">Portfolio</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
 
-    <div class="jumbotron text-center" id="home">
+    <div id="home" class="jumbotron text-center tab-content">
       <h1>Hello, I'm Jaren</h1>
       <p>Front End Developer</p>
-      <a href="#contact"><button type="button" class="btn">Contact Me</button></a>
+      <a href="/contact"><button type="button" class="btn">Contact Me</button></a>
     </div>
 
     <div class="container">
-      <section class="text-center" id="portfolio">
+      <section id="portfolio" class="text-center tab-content">
         <h2>Portfolio</h2>
         <div class="row"></div>
       </section>
 
-      <section class="text-center" id="about">
+      <section id="about" class="text-center tab-content">
         <h2>About</h2>
         <div class="row">
           <div class="col-md-3">
@@ -93,7 +93,7 @@
         </div>
       </section>
 
-      <section id="contact" class="text-center">
+      <section id="contact" class="text-center tab-content">
         <h2>Contact</h2>
         <p>Email is the best way to reach me! Otherwise, you can find me through the social media channels that I've been somewhat diligent at checking lately.</p>
         <p><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:jaren.escueta@gmail.com" id="email">jaren.escueta@gmail.com</a></p>
@@ -113,7 +113,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.js"></script>
+    <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
     <script src="scripts/project.js"></script>
     <script src="scripts/projectView.js"></script>
+    <script src="scripts/controllers/homeController.js"></script>
+    <script src="scripts/controllers/projectController.js"></script>
+    <script src="scripts/controllers/aboutController.js"></script>
+    <script src="scripts/controllers/contactController.js"></script>
+    <script src="scripts/controllers/routeHandlers.js"></script>
   </body>
 </html>
